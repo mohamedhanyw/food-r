@@ -1,0 +1,378 @@
+
+
+
+body{
+    background-color: #000;
+}
+
+/***********************************HEADER**************************************/
+
+
+span{
+    color: rgb(241, 119, 48);
+}
+#lolo{
+    color: white;
+}
+ 
+
+
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    
+    line-height: 80px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+  
+  .logo {
+    float: left;
+    font-size: 36px;
+    margin-right: 20px;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+    margin-left: 30px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: rgb(241, 119, 48);
+  }
+
+
+
+
+  /***********************************HOME**************************************/
+
+
+
+
+
+  .home {
+   
+    padding: 80px 0;
+  }
+  
+  .image {
+    float: left;
+    width: 50%;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text {
+    float: right;
+    width: 50%;
+    color: #fff;
+  }
+  
+  .text h2 {
+    margin-top: 0;
+  }
+  
+  .text p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgb(241, 119, 48);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+
+
+
+
+
+  /***********************************about  us**************************************/
+
+
+
+
+  .about {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 50px;
+  }
+  
+  .image2 {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+  }
+  h2{
+    font-size: 2.5em;
+  }
+  
+  .image2 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .text2 {
+    float: right;
+    width: 50%;
+  }
+  
+  .text2 h3 {
+    margin-top: 0;
+  }
+  
+  .text2 p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card-shop {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-shop img {
+    max-width: 100%;
+    max-height: 70%;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: rgb(241, 119, 48);
+  }
+  .price:hover{
+    color: rgb(255, 94, 0);
+  }
+  .buy-now {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .buy-now:hover{
+   background:  rgb(255, 94, 0);
+  }
+  .h22{
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+  /***************************************************/
+  .reservations {
+    background-color: #000;
+    padding: 80px 0;
+  }
+  
+  .container4 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .h44 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    font-size: 16px;
+  }
+  
+  .b1 {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color:rgb(241, 119, 48);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+
+
+
+
+
+  /************************************************************************/
+
+  .contact {
+    background-color: #fff;
+    padding: 80px 0;
+  }
+  
+  .container5 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .l2 {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color:rgb(241, 119, 48);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
